@@ -11,7 +11,7 @@ app.use(express.json());
 app.get('/users', userController.getAllUsers);
 app.post('/users', userController.addUser);
 
-app.listen(4000, function(){
+app.listen(PORT, function(){
     console.log('Server has started to run');
     mongoose.connect(process.env.LOCAL_DB)
     .then(function(){
