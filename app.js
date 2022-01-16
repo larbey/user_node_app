@@ -4,6 +4,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const userController = require('./controllers/userController');
 const PORT = process.env.PORT || 4000;
+//process.env.NODE_ENV
 //const user = require('./models/user');
 
 app.use(express.json());
