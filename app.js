@@ -13,7 +13,7 @@ app.post('/users', userController.addUser);
 
 app.listen(4000, function(){
     console.log('Server has started to run');
-    mongoose.connect(process.env.DB_URL)
+    mongoose.connect(process.env.LOCAL_DB)
     .then(function(){
         console.log('DB is connected');
     })
