@@ -15,9 +15,9 @@ async function getAllUsers(req, res){
        const users = await user.find();
        res.status(200).json({
            users: [ 
-           {first_name: '', last_name: '', school: ''}, 
-           {first_name: '', last_name: '', school: ''}, 
-           {first_name: '', last_name: '', school: ''} 
+           {first_name: 'Olivia', last_name: 'Rivera', school: 'UG'}, 
+           {first_name: 'Ava', last_name: 'Grace', school: 'KNUST'}, 
+           {first_name: 'Logan', last_name: 'Johnson', school: 'UCC'} 
         ]
     });
     } catch (error) {
