@@ -2,11 +2,11 @@
   "name": "user",
   "version": "1.0.0",
   "description": "A basic node user application",
-  "main": "express_server.js",
+  "main": "user_app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "app": "nodemon express_server.js"
+    "start": "node app.js",
+    "app": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
